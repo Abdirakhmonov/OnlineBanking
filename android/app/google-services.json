@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "553866332546",
+    "project_id": "onlinebanking-8d08e",
+    "storage_bucket": "onlinebanking-8d08e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553866332546:android:81bb64c9222cdc9138a79b",
+        "android_client_info": {
+          "package_name": "com.example.online_banking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApyDlzZjHuP0SqLxewMANXjmst3VyeBeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
