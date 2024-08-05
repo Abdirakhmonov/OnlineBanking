@@ -82,7 +82,7 @@ class HomeScreen extends StatelessWidget {
               Navigator.of(context).push(
                 MaterialPageRoute(
                   builder: (context) =>
-                      TransferScreen(cards: []), // Replace with actual cards
+                      TransferScreen(), // Replace with actual cards
                 ),
               );
             },
