@@ -1,4 +1,3 @@
-// lib/models/card_model.dart
 class CardModel {
   final String id;
   final String fullname;
@@ -16,11 +15,12 @@ class CardModel {
 
   factory CardModel.fromMap(Map<String, dynamic> map) {
     return CardModel(
-      id: map['id'],
-      fullname: map['fullname'],
-      number: map['number'],
-      expiryDate: map['expiryDate'],
-      balance: map['balance'],
+      id: map['id'] ?? '',
+      fullname: map['fullname'] ?? '',
+      number: map['number'] ?? '',
+      expiryDate: map['expiryDate'] ?? '',
+      balance:
+          map['balance'] != null ? (map['balance'] as num).toDouble() : 0.0,
     );
   }
 
